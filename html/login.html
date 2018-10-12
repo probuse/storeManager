@@ -10,9 +10,9 @@
 
 <body>
     <h1>Login to continue.</h1>
-    <form action="./store_attendant_sales.html">
+    <form action="./store_attendant_sales.html" onsubmit="getFormData()">
         <div>
-            <input type="email" placeholder="Input email address" required>
+            <input type="email" placeholder="Input email address" required id="emailAddress">
         </div>
         <div>
             <input type="password" placeholder="Input Password" required>
@@ -25,6 +25,7 @@
     <!-- Only appears when a user has just logged out -->
     <!-- <p>Logout successful.</p> -->
 
+    <script src="../js/index.js"></script>
 
 </body>
 
