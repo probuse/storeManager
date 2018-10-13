@@ -6,50 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store Manager - Store Attendants</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <div>
+    <nav class="navbar">
         <div>
-            <a href="./home.html">Home</a>
-            <a href="./sales.html">Sales</a>
-            <a href="./store_attendants.html">Store Attendants</a>
+            <a href="./store_owner_sales.html">Sales</a>
+            <a class="active" href="./store_attendants.html">Store Attendants</a>
             <a href="./products.html">Products</a>
         </div>
-        <div>
-            <form action="#">
-                <input type="text" placeholder="Search">
-            </form>
+        <div class="nav-right">
+            <a href="./add_store_attendant.html">
+                <button class="btn-add btn-add-long">
+                    Add Store Attendant
+                </button>
+            </a>
+            <a href="#">Search</a>
+            <a href="./login.html">Log out</a>
         </div>
-        <div>
-            <button>
-                <a href="./login.html">Log out</a>
-            </button>
-        </div>
-    </div>
+    </nav>
+    <hr>
 
     <h1>Store Attendants</h1>
-    <div>
-        <div>
-            <li>
-                <a href="./edit_store_attendant.html">etwin himself</a>
-            </li>
-        </div>
-        <div>
-            <li>
-                <a href="#">Cordelia Daphine</a>
-            </li>
-        </div>
-        <div>
-            <li>
-                <a href="#">etwin younger</a>
-            </li>
-        </div>
-        <div>
-            <li>
-                <a href="#">moses Serunkuma</a>
-            </li>
-        </div>
+    <div class="card">
+        <p>
+            <strong>Name: </strong> etwin himself
+        </p>
+        <a class="align-right" href="./edit_store_attendant.html">edit</a>
+        <p>
+            <strong>Phone Number:</strong>+256704800666
+        </p>
+    </div>
+    <div class="card">
+        <p>
+            <strong>Name: </strong> Sandra Kevin
+        </p>
+        <a class="align-right" href="./edit_store_attendant.html">edit</a>
+        <p>
+            <strong>Phone Number:</strong>+256704200444
+        </p>
+    </div>
+    <div class="card">
+        <p>
+            <strong>Name: </strong> Conald Atuhaire
+        </p>
+        <a class="align-right" href="./edit_store_attendant.html">edit</a>
+        <p>
+            <strong>Phone Number:</strong>+256755800666
+        </p>
     </div>
 
     <!--  Only appears when a store attendant has just been added -->

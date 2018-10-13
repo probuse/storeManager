@@ -6,32 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store Manager - Edit etwin himself</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <div>
+
+    <nav class="navbar">
         <div>
-            <a href="./home.html">Home</a>
-            <a href="./sales.html">Sales</a>
-            <a href="./store_attendants.html">Store Attendants</a>
+            <a href="./store_owner_sales.html">Sales</a>
+            <a class="active" href="./store_attendants.html">Store Attendants</a>
             <a href="./products.html">Products</a>
         </div>
-        <div>
-            <button>
-                <!-- show a confirmation pop up when buttton is clicked -->
-                delete etwin himself
-            </button>
+        <div class="nav-right">
+            <a href="#">
+                <button class="btn-delete btn-delete-long">
+                     delete Store Attendant
+                </button>
+            </a>
+            <a href="./login.html">Log out</a>
         </div>
-    </div>
+    </nav>
+    <hr>
 
-    <h1>Edit etwin himself</h1>
-    <form action="./store_attendants.html">
-        <div><input type="text" value="etwin himself"></div>
-        <div><input type="email" value="etwin@himself.com" required></div>
-        <div><input type="phone" value="+256704800666"></div>
-        <div><input type="password" value="************" required></div>
-        <div><input type="submit" value="Edit Store Attendant"></div>
-    </form>
+    <div class="form">
+        <h1>Edit etwin himself</h1>
+        <form action="./store_attendants.html">
+            <div>
+                <input type="text" value="etwin himself">
+            </div>
+            <div>
+                <input type="email" value="etwin@himself.com">
+            </div>
+            <div>
+                <input type="phone" value="+256704800666">
+            </div>
+            <div>
+                <input type="password" value="************">
+            </div>
+            <div>
+                <input type="submit" value="Edit Store Attendant">
+            </div>
+        </form>
+    </div>
   
 
 </body>

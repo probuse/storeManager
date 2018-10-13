@@ -6,31 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store Manager - Add Store Attendant</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <div>
+
+    <nav class="navbar">
         <div>
-            <a href="./home.html">Home</a>
-            <a href="./sales.html">Sales</a>
-            <a href="./store_attendants.html">Store Attendants</a>
+            <a href="./store_owner_sales.html">Sales</a>
+            <a class="active" href="./store_attendants.html">Store Attendants</a>
             <a href="./products.html">Products</a>
         </div>
-        <div>
-            <button>
-                <a href="./login.html">Log out</a>
-            </button>
+        <div class="nav-right">
+            <a href="./login.html">Log out</a>
         </div>
-    </div>
+    </nav>
+    <hr>
 
-    <h1>Add Store Attendant</h1>
-    <form action="./store_attendants.html">
-        <div><input type="text" placeholder="Input Store Attendant Names"></div>
-        <div><input type="email" placeholder="Input Store Attendant email address" required></div>
-        <div><input type="phone" placeholder="Input Store Attendant Phone number"></div>
-        <div><input type="password" placeholder="Input Store Attendant Password" required></div>
-        <div><input type="submit" value="Add Store Attendant"></div>
-    </form>
+    <div class="form">
+        <h1>Add Store Attendant</h1>
+        <form action="./store_attendants.html">
+            <div>
+                <input type="text" placeholder="Enter Store Attendant Names">
+            </div>
+            <div>
+                <input type="email" placeholder="Enter Store Attendant email address">
+            </div>
+            <div>
+                <input type="phone" placeholder="Enter Store Attendant Phone number">
+            </div>
+            <div>
+                <input type="password" placeholder="Enter Store Attendant Password">
+            </div>
+            <div>
+                <input type="submit" value="Add Store Attendant">
+            </div>
+        </form>
+    </div>
   
 
 </body>

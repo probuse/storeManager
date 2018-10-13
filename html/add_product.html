@@ -6,37 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store Manager - Add New Product</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
 
-    <div>
+    <nav class="navbar">
         <div>
-            <a href="./home.html">Home</a>
-            <a href="./sales.html">Sales</a>
+            <a href="./store_owner_sales.html">Sales</a>
             <a href="./store_attendants.html">Store Attendants</a>
-            <a href="./products.html">Products</a>
+            <a class="active" href="./products.html">Products</a>
         </div>
-        <div>
-            <button>
-                <a href="./login.html">Log out</a>
-            </button>
+        <div class="nav-right">
+            <a href="./login.html">Log out</a>
         </div>
+    </nav>
+    <hr>
+
+    <div class="form">
+        <h1>Add New Product</h1>
+        <form action="./products.html">
+            <div>
+                <input type="text" placeholder="Enter Product Name">
+            </div>
+            <div>
+                <input type="number" placeholder="Enter Product Price per unit" min="0">
+            </div>
+            <div>
+                <input type="submit" value="Add Product">
+            </div>
+        </form>
     </div>
-
-
-    <h1>Add New Product</h1>
-    <form action="./products.html">
-        <div>
-            <input type="text" placeholder="Input Product Name" required>
-        </div>
-        <div>
-            <input type="number" placeholder="Input Product Price per unit" min="0" required>
-        </div>
-        <div>
-            <input type="submit" value="Add Product">
-        </div>
-    </form>
 
 </body>
 

@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store Manager - Product Details</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <div>
+    <nav class="navbar">
         <div>
-            <button>
-                <a href="./edit_product.html">edit</a>
-            </button>
+            <a href="./store_owner_sales.html">Sales</a>
+            <a href="./store_attendants.html">Store Attendants</a>
+            <a href="./products.html">Products</a>
         </div>
-        <div>
-            <button>
-                <!-- show a confirmation pop up when button is clicked -->
-                delete Product One
-            </button>
+    
+        <div class="nav-right">
+            <a href="./login.html">Log out</a>
         </div>
-    </div>
-    <h1>Product One</h1>
-    <div>
-        <p><strong>Product Name: </strong> Product One</p>
+    
+    </nav>
+    <hr>
+
+    <h1 class="text-center">Product One</h1>
+    <div class="card small-card">
+        <p>
+            <strong>Product Name: </strong> Product One
+        </p>
         <p>
             <strong>Product Cost Price: </strong> UGX: 23,000
         </p>
@@ -35,6 +39,21 @@
         <p>
             <strong>minimum inventory quantity: </strong> 20
         </p>
+        <div class="align-right">
+            <a href="./edit_product.html">
+                <button class="btn-add">
+                edit
+                </button>
+            </a>
+            
+            <a href="#">
+                <button class="btn-delete">
+                     delete
+                </button>
+            </a>
+            </button>
+        
+        </div>
     </div>
     
 </body>

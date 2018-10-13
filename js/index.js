@@ -3,6 +3,6 @@ function getFormData() {
 
     if (emailAddress.startsWith("admin")) {
         alert("This is an admin")
-        window.location = "./store_owner_sales.html";
+        window.location.ref = "./store_owner_sales.html";
     }
 }

@@ -6,46 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store  Attendant - Shopping Cart</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <div>
+
+    <nav class="navbar">
         <div>
-            <button>
-                <a href="./store_attendant_products.html">Add Product</a>
-            </button>
+            <a href="./store_attendant_sales.html">Sales</a>
+            <a href="./store_attendant_products.html">Products</a>
         </div>
-    </div>
+    
+        <div class="nav-right">
+            <a class="active" href="./shopping_cart.html">Shopping Cart</a>
+            <a href="./login.html">Log out</a>
+        </div>
+    </nav>
+    <hr>
 
     <h1>Shopping Cart</h1>
     <div>
-        <table>
+        <table id="shopping-cart">
             <tr>
-                <th>Product Name</th>
+                <th >Product Name</th>
                 <th>Quantity</th>
-                <th>Amount</th>
+                <th>Product Price</th>
+                <th>Sub Total</th>
                 <th>Remove</th>
             </tr>
             <tr>
                 <td>
                    Product One
                 </td>
-                <td contenteditable>2</td>
-                <td>42,000</td>
-                <td><a href="#">X</a></td>
+                <td contenteditable>
+                    <select name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+                <!-- <td contenteditable>2</td> -->
+                <td>UGX 21,000</td>
+                <td>UGX 42,000</td>
+                <td class="text-center">
+                    <a href="#">X</a>
+                </td>
             </tr>
             <tr>
                 <td>
                     Product Two
                 </td>
-                <td contenteditable>3</td>
-                <td>45,000</td>
                 <td>
+                    <select name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+                <td>UGX 15,000</td>
+                <td>UGX 45,000</td>
+                <td class="text-center">
+                    <a href="#">X</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Product Three
+                </td>
+                <td>
+                    <select name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+                <td>UGX 4,000</td>
+                <td>UGX 12,000</td>
+                <td class="text-center">
+                    <a href="#">X</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Product Four
+                </td>
+                <td>
+                    <select name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </td>
+                <td>UGX 5,000</td>
+                <td>UGX 15,000</td>
+                <td class="text-center">
                     <a href="#">X</a>
                 </td>
             </tr>
         </table>
-
+        <button>Make Sale</button>
     </div>
 
 </body>

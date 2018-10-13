@@ -6,50 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store Manager - Products</title>
+    <link rel="stylesheet" href="../css/styles.css">    
 </head>
 
 <body>
-    <div>
+    <nav class="navbar">
         <div>
             <a href="./store_attendant_sales.html">Sales</a>
-            <a href="./store_attendant_products.html">Products</a>
+            <a class="active" href="./store_attendant_products.html">Products</a>
         </div>
-        <div>
-            <form action="#">
-                <input type="text" placeholder="Search">
-            </form>
+    
+        <div class="nav-right">
+            <a href="./shopping_cart.html">Shopping Cart</a>
+            <a href="#">Search</a>
+            <a href="./login.html">Log out</a>
         </div>
-        <div>   
-            <button>
-                <a href="./login.html">Log out</a>
-            </button>
-        </div>
-    </div>
+    </nav>
+    <hr>
 
     <h1>Products</h1>
     <div>
-        <div>
-            <li>
-                <a href="./store_attendant_product_details.html">product one</a>
-                <a href="./shopping_cart.html">add to shopping cart</a>
-            </li>
+        <div class="card">
+            <p>
+                <strong>Products Name: </strong><a href="./store_attendant_product_details.html"> Product one</a>
+            </p>
+            <a class="align-right" href="#">add to cart</a>
+            <p>
+                <strong>Product Price:</strong>UGX 2,000
+            </p>
+
         </div>
-        <div>
-            <li>
-                <a href="#">product two</a>
-            </li>
+        <div class="card">
+            <p>
+                <strong>Products Name:</strong> <a href="./store_attendant_product_details.html"> Product two</a>
+            </p>
+            <a class="align-right" href="#">add to cart</a>
+            <p>
+                <strong>Product Price:</strong>UGX 4,000
+            </p>
+        
         </div>
-        <div>
-            <li>
-                <a href="#">product three</a>
-            </li>
+        <div class="card">
+            <p>
+                <strong>Products Name:</strong> <a href="./store_attendant_product_details.html"> Product three</a>
+            </p>
+            <a class="align-right" href="#">add to cart</a>
+            <p>
+                <strong>Product Price:</strong>UGX 8,000
+            </p>
+        
         </div>
-        <div>
-            <li>
-                <a href="#">product four</a>
-            </li>
+        <div class="card">
+            <p>
+                <strong>Products Name:</strong> <a href="./store_attendant_product_details.html"> Product four</a>
+            </p>
+            <a class="align-right" href="#">add to cart</a>
+            <p>
+                <strong>Product Price:</strong>UGX 4,000
+            </p>
+        
         </div>
-    </div>
+       
 
     <!-- Only appears when a product has just been added -->
     <!-- <p>product five added successfully.</p> -->

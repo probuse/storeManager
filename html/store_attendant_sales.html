@@ -6,47 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Store Manager - Sales</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <body>
-    <div>
+    <nav class="navbar">    
         <div>
-            <a href="./store_attendant_sales.html">Sales</a>
+            <a class="active" href="./store_attendant_sales.html">Sales</a>
             <a href="./store_attendant_products.html">Products</a>
+        </div> 
+
+        <div class="nav-right">
+            <a href="#">Search</a>
+            <a href="./login.html">Log out</a>
         </div>
-        <div>
-            <form action="#">
-                <input type="text" placeholder="Search">
-            </form>
-        </div>
-        <div>
-            <button>
-                <a href="./login.html">Log out</a>
-            </button>
-        </div>
-    </div>
+
+    </nav>
+    <hr>
 
     <h1>Sales</h1>
-    <div>
-        <div>
-            <p><strong>Date Of Sale: </strong> 23 Jan 2023</p>
-            <p>Sold 1 Product One at UGX: 23,000</p>
-            <p>Sold 2 Product two at UGX: 42,000</p>
-            <p>Sold 23 Product three at UGX: 32,000</p>
-            <hr>
-        </div>
-        <div>
+    <div class="cards">
+        <div class="card">
+            <p class="text-center">
+                <strong>Date Of Sale: </strong> 23 Jan 2023
+            </p>    
             <p>
-                <strong>Date Of Sale: </strong> 13 Dec 2020</p>
-            <p>Sold 1 Product One at UGX: 23,000</p>
-           <hr>
-        </div>
-        <div>
+                <strong>Products Sold:</strong>  23 
+            </p>
             <p>
-                <strong>Date Of Sale: </strong> 25 September 2020</p>
-            <p>Sold 42 Product One at UGX: 230,000</p>
-            <p>Sold 24 Product One at UGX: 420,000</p>
-            <hr>
+                <strong>Amount made:</strong>UGX 42,000
+            </p>    
+        </div>
+        <div class="card">
+            <p class="text-center">
+                <strong>Date Of Sale: </strong> 23 Jan 2023
+            </p>
+            <p>
+                <strong>Products Sold:</strong> 42
+            </p>
+            <p>
+                <strong>Amount made:</strong>UGX 60,000
+            </p>
+        </div>
+    
+        <div class="card">
+            <p class="text-center">
+                <strong>Date Of Sale: </strong> 25 September 2020
+            </p>
+            <p>
+                <strong>Products Sold:</strong> 10
+            </p>
+            <p>
+                <strong>Amount made:</strong>UGX 300,000
+            </p>
         </div>
     </div>
 

@@ -8,44 +8,29 @@
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-    <p>Welcome to Store manager</p>
-       <p> We help you manage your sales and product inventory records in your store</p>
-    <div>
+    <div class="intro-text">
+        <h1>Welcome to Store manager</h1>
+        <h3> We help you manage your sales and product inventory records in your store</h3>
+    </div>
+    <div class="form">
         <h1>Sign up here to get started.</h1>
 
         <form action="./login.html">
             <div>
-                <input type="text" placeholder="Input username">
+                <input type="text" placeholder="Enter username">
             </div>
             <div>
-                <input type="email" placeholder="Input email address" required>
+                <input type="email" placeholder="Enter email address" >
             </div>
             <div>
-                <input type="password" placeholder="Input Password" required>
-            </div>
-            <div>
-                <input type="password" placeholder="Confirm Password" required>
+                <input type="password" placeholder="Enter Password" >
             </div>
             <div>
                 <input type="submit" value="Create Account">
             </div>
         </form>
-    </div>
 
-    <!-- toggle between login and signup screens -->
-    <div>
-        <h1>Login to continue.</h1>
-        <form action="./store_attendant_sales.html" onsubmit="getFormData()">
-            <div>
-                <input type="email" placeholder="Input email address" required id="emailAddress">
-            </div>
-            <div>
-                <input type="password" placeholder="Input Password" required>
-            </div>
-            <div>
-                <input type="submit" value="Login">
-            </div>
-        </form>
+        <p >Already have an account? <a href="./login.html"> login</a></p>
 
     </div>
     
