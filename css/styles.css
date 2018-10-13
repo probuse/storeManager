@@ -1,4 +1,150 @@
 body {
-    background-image: url("../images/store_manager.jpg");
+    background-color: silver;
     background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.intro-text {
+    color: #000;
+    text-align: center;
+}
+
+.form {
+    margin: auto;
+    border: 3px solid #fff;
+    width: 60%;
+    text-align: center;
+    padding: 16px;
+    color: #000;
+}
+
+.form input{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px; 
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.login-form {
+    margin-top: 15%;
+}
+
+.form input[type=submit] {
+    background-color: gray;
+}
+
+.navbar {
+    overflow: hidden;
+    width: 95%;
+    display: flex !important;
+    justify-content: space-between !important;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.navbar a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    color: #000
+}
+
+.navbar a.active {
+    color: #fff;
+    background-color: #000;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+}
+
+
+.navbar-right {
+    float: right;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.small-card {
+    width: 40%;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-right {
+    float: right;
+}
+
+#shopping-cart {
+    width: 100%;
+}
+
+#shopping-cart td, #shopping-cart th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#shopping-cart tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#shopping-cart tr:hover {
+    background-color: #ddd;
+}
+
+#shopping-cart th {
+    text-align: left;
+    padding: 12px 12px;
+    background-color: #000;
+    color: #fff;
+}
+
+button {
+    background-color: gray;
+    padding: 10px;
+    margin: 30px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+    font-size: 1.2rem;
+}
+
+.btn-delete {
+    background-color: red;
+    color: #fff;
+    width: 10rem;
+    border-radius: 10px;
+}
+
+.btn-add {
+    background-color: rgb(3, 3, 105);
+    color: #fff;
+    width: 10rem;
+    border-radius: 10px;
+}
+
+.btn-add-long {
+    width: 16rem;
+}
+
+.btn-delete-long{
+    width: 16rem;
 }
