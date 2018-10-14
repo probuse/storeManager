@@ -95,8 +95,9 @@ a:hover {
     float: right;
 }
 
-#shopping-cart {
+#shopping-cart  {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
 }
 
 #shopping-cart td, #shopping-cart th {
